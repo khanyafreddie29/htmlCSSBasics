@@ -1,0 +1,16 @@
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+    
+}
+/* ONLY APPLIES TO FIRST PART OF THE ELEMENT */
+p::first-line{
+    color: blue;
+}
+#list1 li::before{
+    content: ";)"
+}
+
+li::marker{
+    color:cyan
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 18px;
+    background-color: lime;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin: 50px;
+    can use one line of margin instead of 4 diff*/
+
+
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 18px;
+    background-color: blueviolet;
+}
+
+/* padding is the space between the cone */

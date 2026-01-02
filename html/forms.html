@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14</title>
+</head>
+<body>
+    <!-- FORMS -->
+    <!-- forms are used to gather input, user data -->
+    <!-- can be stored in dbs , if not stored it goes away lol -->
+    <form action="">
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" placeholder="sarah" required>
+        </div>
+
+        <br>
+
+       <div>
+            <!-- for attribute links to the inputbox easily -->
+             <label for="lname">last name:</label>
+            <input type="text" id="lname" placeholder="boer">
+       </div>
+
+       <div>
+        <label for="pass">passowrd:</label>
+        <input type="password" id="pass" maxlength="10">
+    </div>
+
+    <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="sarah@123.com">
+    </div>
+
+    <div>
+        <label for="phone">phone:</label>
+        <input type="tel" id="phoone" placeholder="083123789">
+    </div>
+
+    <div>
+        <label for="date">birthdate:</label>
+        <input type="date" id="date" name="date">
+    </div>
+
+    <div>
+        <!-- if you group them in the same name, you can only select one -->
+        <label for="">mr</label><input type="radio" name="title">
+        <label for="">mrs</label><input type="radio" name="title">
+        <label for="">md</label><input type="radio" name="title">
+    </div>
+
+    <!-- DROP DOWN MENU -->
+    <div>
+        <label for="travel">payment:</label>
+        <select name="travel" id="travel">
+            <option value="">car</option>
+            <option value="">buckie</option>
+            <option value="">bicycle</option>
+        </select>
+    </div>
+
+       <div>
+        <input type="reset">
+       </div>
+
+       <div>
+        <input type="submit">
+       </div>
+    </form>
+    <!-- methods in forms: get & post -->
+    <!-- get appends data -->
+    <!-- post for submitting -->
+
+    <!-- passwords -->
+    <!-- maxlength for max password length -->
+</body>
+</html>

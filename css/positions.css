@@ -1,0 +1,25 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    position: relative;
+    /* positions static is in its normal state
+        positions relative is relative to some point of origin
+        will move into other elements*/
+}
+
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(211, 73, 73);
+
+    position: absolute;
+    top: 0
+}
+
+/* we can make box 2 the child of box 1 by placing it within box 1 
+and changing the position of box 1 using relative will change box 2s as well
+position fixed stays as is 
+position sticky moves everywhere except for its original place*/

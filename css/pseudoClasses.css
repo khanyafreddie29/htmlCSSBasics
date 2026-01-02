@@ -1,0 +1,32 @@
+a:link{
+    color:brown
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: chocolate;
+}
+a:active{
+    color:cornflowerblue;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+/* li:nth-child(1){
+    background-color: coral;
+} */
+
+/* li:nth-child(even){
+    background-color: brown;
+}
+
+li:nth-child(odd){
+    background-color: rgb(172, 127, 127);
+} */
+
+li:nth-child(4n){
+    background-color: pink;
+}
